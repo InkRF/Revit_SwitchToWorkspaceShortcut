@@ -8,7 +8,10 @@ Built using Visual Studio 2022 & .NET 4.8 Framework
 
 Note that worksharing must be enabled for workets to be used/created. This step must be done manually prior to using the add-in
 
-Additionall, note this code is a relativly "quick and dirty" solution to a problem that needed solving to make switching worksets more efficant. More work can (and should) be done to make it a bit more robust, and to have additional functionality.
+Additionally, note this code is a relativly "quick and dirty" solution to a problem that needed solving to make switching worksets more efficant. More work can (and should) be done to make it a bit more robust, and to have additional functionality.
+
+## Revit API
+When building this in Visual Studio, make sure that the ``RevitAPI`` and ``REVITAPIUI`` are added to the project references, additional information on how to do this may be found [here](https://knowledge.autodesk.com/search-result/caas/simplecontent/content/lesson-1-the-basic-plug.html)
 
 ## AddIn Manifest
 Note that an additional file must be added to the Revit addin folder to add the plugin to be used in revit, 
